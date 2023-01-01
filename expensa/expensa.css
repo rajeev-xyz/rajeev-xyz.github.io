@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.screenshot-card {
+    width: 80%;
+    height: auto;
+    border-radius: 21px 21px 0 0;
+}
+
+@media(min-width: 768px) {
+    .screenshot-card {
+        width: 80%;
+        height: auto;
+        border-radius: 21px 21px 0 0;
+    }
+}
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+.list-group-col {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    padding-left: 0px;
+}
+
+@media(min-width: 768px) {
+    .list-group-col {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding-left: 0px;
+    }
+}
+
+.list-group-col i {
+    padding: 10px;
+}
+
+.banner-updates {
+    text-align: center;
+}
+
+/* Privacy - Terms */
+#privicyUpdatedOn {
+    display: inline;
+}
+
+/* header */
+
+.active {
+    background: red;
+    color: white;
+}
+
+.btn-link {
+    text-align: left !important;
+}
+
+.nav-text {
+    color: #fff !important;
+    padding-right: 40px !important;
+    vertical-align: middle;
+}
+
+.app-header {
+    background-color: #009688 !important
+}
+
+.banner-updates {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* ======= Footer ======= */
+
+.footer {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.footer .fa-heart {
+    color: #fb866a;
+}
+
+/* Extra small devices (phones, less than 768px) */
+
+@media (max-width: 767px) {
+    .header {
+        text-align: center;
+    }
+
+    .header .profile-image {
+        float: none !important;
+        margin: 0 auto;
+    }
+
+    .header .profile-content {
+        float: none !important;
+        text-align: center;
+    }
+
+    .header .btn {
+        margin-top: 30px;
+        float: none !important;
+    }
+
+    .project-image {
+        margin-bottom: 15px;
+    }
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
+}
