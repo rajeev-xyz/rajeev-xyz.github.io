@@ -280,11 +280,6 @@ footer {
     text-align: center
 }
 
-#lead-content h1,
-#lead-content h2 {
-    margin: 0
-}
-
 #lead-content h1 {
     color: #fff;
     font-weight: 900;
